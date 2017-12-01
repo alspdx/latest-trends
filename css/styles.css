@@ -42,6 +42,7 @@ body {
 .card p {
   font-size: .8rem;
   padding-top: 15px;
+	width: 100%;
 }
 .article {
   width: calc(100% - 16px);
@@ -81,13 +82,13 @@ body {
   height: 100%;
   position: absolute;
 }
-.featured-article:first-of-type {
+.feature-1 {
   background: url("../img/shadows.jpg");
   background-size: cover;
   background-position: center;
 }
-.featured-article:last-of-type {
-  background: url("../img/night-woods.jpg");
+.feature-2 {
+  background: url("../img/handshake.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -115,7 +116,7 @@ body {
 		float: none;
 		margin: 0;
 	}
-	.article-image:nth-of-type(1) img, .article-image:nth-of-type(4) img {
+	#graffiti {
 		object-position: 50% 90%;
 	}
 	.card-body {
@@ -132,5 +133,32 @@ body {
 	}
 	.featured-article {
 	  width: calc(100% - 24px);
+	}
+}
+
+@media screen and (min-width: 1001px) {
+	body {
+		margin: 18px;
+	}
+	.card {
+		margin: 12px;
+	}
+	.article {
+		width: calc(25% - 24px);
+		height: 344px;
+		text-align: center;
+	}
+	.card-body {
+		height: 170px;
+	}
+	.card-body p {
+		position: absolute;
+		bottom: 25px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	.featured-article {
+		height: 344px;
+		max-width: calc(50% - 24px);
 	}
 }
