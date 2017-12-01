@@ -29,6 +29,7 @@ html {
 
 body {
   background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -38,6 +39,51 @@ body {
 .card {
   margin: 8px;
   float: left;
+}
+
+.card h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+
+.card-body {
+  padding: 10px 15px 10px 5px;
+  display: block;
+  max-width: calc(100% * (2/3) - 20px);
+  overflow: hidden;
+}
+
+.card-body h4 {
+  color: #545454;
+
+}
+
+.card-body p {
+  color: #757575;
+  font-size: .8rem;
+  padding-top: 15px;
+}
+
+.article {
+  width: calc(100% - 16px);
+  background: #fff;
+
+}
+
+.article-image {
+  height: 86px;
+  max-width: 130px;
+  min-width: 86px;
+  margin: 10px;
+  display: block;
+  float: left;
+}
+
+.article-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .featured-article {
@@ -52,33 +98,21 @@ body {
   position: absolute;
 }
 
-.featured-article:first-of-type .featured-image {
+.featured-article:first-of-type {
   background: url("../img/shadows.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.featured-article:last-of-type .featured-image {
+.featured-article:last-of-type {
   background: url("../img/night-woods.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.article {
-  width: calc(100% - 16px);
-  background: #fff;
-  height: 106px;
-}
-
-.article-image {
-  height: 86px;
-  width: 130px;
-  margin: 10px;
-  float: left;
-}
-
-.article-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.card-body-featured {
+  position: absolute;
+  bottom: 30px;
+  left: 26px;
+  color: #fff;
 }
