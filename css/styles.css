@@ -27,22 +27,59 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background: #f5f5f5;
+}
+
 .container {
   padding: 8px;
 }
 
 .card {
   margin: 8px;
-  background: #edeae3;
   float: left;
 }
 
-.featured-article{
+.featured-article {
   height: 340px;
   width: calc(100% - 16px);
+  background: yellow;
+  position: relative;
+}
+
+.featured-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.featured-article:first-of-type .featured-image {
+  background: url("../img/shadows.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.featured-article:last-of-type .featured-image {
+  background: url("../img/night-woods.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .article {
-  height: 108px;
   width: calc(100% - 16px);
+  background: #fff;
+  height: 106px;
+}
+
+.article-image {
+  height: 86px;
+  width: 130px;
+  margin: 10px;
+  float: left;
+}
+
+.article-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
