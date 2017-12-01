@@ -26,3 +26,23 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.container {
+  padding: 8px;
+}
+
+.card {
+  margin: 8px;
+  background: #edeae3;
+  float: left;
+}
+
+.featured-article{
+  height: 340px;
+  width: calc(100% - 16px);
+}
+
+.article {
+  height: 108px;
+  width: calc(100% - 16px);
+}
