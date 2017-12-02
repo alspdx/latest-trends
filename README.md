@@ -1,12 +1,12 @@
 # Think with Google _Latest trends and stories_ Replication
 
-#### Recreation of the _Latest trends and stories_ section of thinkwithgoogle.com, _2017_
+#### Replication of the _Latest trends and stories_ section of thinkwithgoogle.com, _2017_
 
 #### by **Adam Smith**
 
 ## Description
 
-As an exercise in responsive layout, this is a replication of the _Latest trends and stories_ section of thinkwithgoogle.com, Google's marketing research and digital trends website. 
+As an exercise in responsive layout, this is a replication of the _Latest trends and stories_ section of thinkwithgoogle.com, Google's marketing research and digital trends website.
 
 ## Setup
 
